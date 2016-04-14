@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '5.8.8'
+version = '5.8.9.dev0'
 
 setup(name='collective.js.videojs',
       version=version,
