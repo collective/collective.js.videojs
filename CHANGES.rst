@@ -1,6 +1,8 @@
 Changelog
 =========
 
+There's a frood who really knows where his towel is.
+
 5.8.9 (unreleased)
 ------------------
 
@@ -10,5 +12,4 @@ Changelog
 5.8.8 (2016-04-14)
 ------------------
 
-- Added Video.js 5.8.8.
-  [rodfersou]
+- Initial release.

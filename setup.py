@@ -1,14 +1,17 @@
 from setuptools import setup, find_packages
 
 version = '5.8.9.dev0'
+description = 'Integration of  Video.js, an open source HTML5 & Flash video player, in Plone.'
+long_description = (
+    open('README.rst').read() + '\n' +
+    open('CONTRIBUTORS.rst').read() + '\n' +
+    open('CHANGES.rst').read()
+)
 
 setup(name='collective.js.videojs',
       version=version,
-      description="Get twitter videojs as browser resources",
-      long_description=open("README.rst").read() + "\n" +
-                       open("CHANGES.txt").read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
+      description=description,
+      long_description=long_description,
       classifiers=[
         "Environment :: Web Environment",
         "License :: OSI Approved :: GNU General Public License (GPL)",
